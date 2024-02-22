@@ -60,14 +60,15 @@ Hope we get love and suppport from our fellow competitors and our respected facu
 
 Thank you.
 
-[12:57, 2024-02-22] Narsingh St Clair: Contribution:
+Contribution
 
 Narsingh = has done all the coding from the data base.
 Abhinav = has done the initial coding and all the README file.
 Simarjit =  has helped with the codes and even in gathering information like entities and company names.
 all = we three has done the initial research on the companies which sell the balloons and how is thier data.
 in the last as we created the whole webpage, we thought of adding few attracting details like backdrop and even made sure that they are done originally for no copyrights.
-[13:49, 2024-02-22] Narsingh St Clair: comments:
+
+ comments:
 
 this project was done by all equally, we three were together in live at  Abhinavs Appartment while doing the whole project, we gained alot of knowledge regarding this tool or application.
 and also about the product (balloons)
