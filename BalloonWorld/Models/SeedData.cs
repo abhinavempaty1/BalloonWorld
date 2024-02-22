@@ -23,7 +23,7 @@ namespace BalloonWorld.Models
                     new Balloon
                     {
                         Material = "Latex",
-                        Occasion = "Party",
+                        Occasion = "Birthday Party",
                         Size="M",
                         Shape="Heart",
                         Price = 3.99M
@@ -31,7 +31,7 @@ namespace BalloonWorld.Models
                     new Balloon
                     {
                     Material="Latex",
-                    Occasion="Birthday",
+                    Occasion="anniversary party ",
                     Size="L",
                     Shape="Circle",
                     Price=2.99M,
@@ -41,22 +41,22 @@ namespace BalloonWorld.Models
                         Material = "Metalized Plastic",
                         Occasion = "Yearly Anniversaries",
                         Size = "Standard",
-                        Shape = "Star",
+                        Shape = "Round",
                         Price = 6.55M,
                     },
                     new Balloon
                     {
                         Material = "Metalized Plastic",
                         Occasion = " Farewell Parties",
-                        Size = "Standard",
+                        Size = "XL",
                         Shape = "Star",
                         Price = 5.55M,
                     },
                     new Balloon
                     {
                         Material = "Polychloroprene",
-                        Occasion = " Gym's",
-                        Size = "Standard",
+                        Occasion = " Baby Shower",
+                        Size = "Small",
                         Shape = "Round",
                         Price = 15.55M,
                     },
@@ -67,8 +67,41 @@ namespace BalloonWorld.Models
                         Size = "XS",
                         Shape = "Pear",
                         Price = 9.55M,
+                    },
+                    new Balloon
+                    {
+                        Material = "mylar",
+                        Occasion = " Dance Party",
+                        Size = "Standard",
+                        Shape = "Round",
+                        Price = 12.05M,
+                    },
+                    new Balloon
+                    {
+                        Material = "latex",
+                        Occasion = " Farewell party",
+                        Size = "Large",
+                        Shape = "Heart",
+                        Price = 10.5M,
+                    },
+                    new Balloon
+                    {
+                        Material = "nylon",
+                        Occasion = " marriage ceremony",
+                        Size = "Medium",
+                        Shape = "Round",
+                        Price = 12.55M,
+                    },
+                    new Balloon
+                    {
+                        Material = "Rubber",
+                        Occasion = " valentines party",
+                        Size = "Standard",
+                        Shape = "Heart",
+                        Price = 15.55M,
                     }
-                  
+
+
                 );
                 context.SaveChanges();
             }

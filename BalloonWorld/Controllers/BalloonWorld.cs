@@ -8,6 +8,10 @@ namespace BalloonWorld.Controllers
         {
             return View();
         }
+        public IActionResult Lists()
+        {
+            return View();
+        }
         public string Welcome()
         {
             return "This is the welcome action method..";
