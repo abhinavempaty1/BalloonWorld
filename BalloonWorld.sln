@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalloonWorld", "BalloonWorld\BalloonWorld.csproj", "{F27EC9D2-AAD7-49A1-9CCD-DF7B04214E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F27EC9D2-AAD7-49A1-9CCD-DF7B04214E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27EC9D2-AAD7-49A1-9CCD-DF7B04214E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27EC9D2-AAD7-49A1-9CCD-DF7B04214E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27EC9D2-AAD7-49A1-9CCD-DF7B04214E75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {214B9EB6-DBDE-4322-86A8-13D3CB1FBBB4}
+	EndGlobalSection
+EndGlobal

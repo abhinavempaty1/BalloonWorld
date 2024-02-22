@@ -1,0 +1,68 @@
+﻿@model BalloonWorld.Models.balloonoccasionviewmodel
+
+@{
+}
+    
+
+<h1>Ballon World</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller="Balloons" asp-action="Index" method="get">
+    <p>
+        <select asp-for="balloonoccasion" asp-items="Model.occasion">
+            <option value="">All</option>
+        </select>
+        Title: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Balloons![0].Material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balloons![0].Occasion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balloons![0].Size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balloons![0].Shape)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balloons![0].Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Balloons!) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Material)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Occasion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Shape)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
