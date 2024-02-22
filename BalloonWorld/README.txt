@@ -1,8 +1,8 @@
 ﻿Team- Nu
 Members:
-Simarjit Kaur      - 0847845
-Narsingh Mokkarala - 0847456
-Abhinav Empaty     - 0848728
+Simarjit Kaur      
+Narsingh Mokkarala 
+Abhinav Empaty     
  
 Date - 2024-02-16
 Time - 1500
