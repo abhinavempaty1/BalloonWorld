@@ -78,3 +78,28 @@ migrations.
 20240221210120_IntialCreate
 
 *****************************************************************************************************************************************************
+
+DATE - 2024-03-15
+TIME - 1500
+
+This is a test project; running in local host; but tried all the possible ways to deploy to azure cloud.
+As you see the branch history we went till the DB connection to the azure; and did more than 30 times changes we were unable to solve that deployment issue; hardluck.
+But in the localhost the code is smooth.
+
+We have learned many new ways like how to deploy;
+ - first creat DB in azure and then deploy from VS.
+ - first do the changes from the GIT rep in the appsettings and prog.cs file and then again deploy to azure.
+ - first do the publish from VS and then go to the azure for creating the DB and app service.
+
+ we have tried many ways to do it possible.
+ our main proj is with live name BalloonWorldLive.
+
+ and this link is named BalloonWorldTest.
+
+ main PROD website is working fine.
+
+ comments:
+
+ we gained alot of knowledge by this project and even got to know how to work in a team; with a team.
+
+ Thank you for this project(lab).
