@@ -4,7 +4,7 @@ using BalloonWorld.Data;
 using BalloonWorld.Models;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BalloonWorldContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BalloonWorldContext") ?? throw new InvalidOperationException("Connection string 'BalloonWorldContext' not found.")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AZURE_POSTGRESQL_CONNECTIONSTRING") ?? throw new InvalidOperationException("Connection string 'BalloonWorldContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
